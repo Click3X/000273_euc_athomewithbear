@@ -1,0 +1,400 @@
+{
+	"siteurl" : "http://energyupgradeca.org",
+	"sweepsurl" : "http://energyupgradeca.org",
+	"scenes": [
+		{
+			"background" : "img/kitchen.jpg",
+			"width" : 1367, 
+			"initialPosition" : 353,
+			"spots" : [
+				{
+					"x" : 643,
+					"y" : 76,
+					"hidden" : false,
+					"title" : "Illuminate with lumens",
+					"body" : "Replace your old bulbs. Energy Star®-certified CFL or LED bulbs can save $40 to $135 over their lifetime compared to traditional incandescent bulbs.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Lightbulb_Hotspot_Click-IlluminateWithLumens.mp3"
+				},
+				{
+					"x" : 490,
+					"y" : 147,
+					"hidden" : false,
+					"title" : "Help during a flex alert",
+					"body" : "To help avoid blackouts, run large appliances like your dishwasher, washer and dryer after 6 p.m. to reduce stress on the grid. And if a Flex Alert is called, do your part by turning off all unnecessary lights, computers, air conditioners, appliances and anything else that uses power.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Clock_Hotspot_Click-HelpDuringAFlexAlert.mp3"
+				},
+				{
+					"x" : 409,
+					"y" : 255,
+					"hidden" : false,
+					"title" : "Cut the power",
+					"body" : "Appliances use energy even when they are off, so switching them off at the source will save you money and help the environment. You can also use an advance power strip, which automatically cuts the power when connected appliances are not in use.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_CoffeePot_Hotspot_Click-CutThePower.mp3"
+				},
+				{
+					"x" : 857,
+					"y" : 383,
+					"hidden" : false,
+					"title" : "Efficient dishwasher",
+					"body" : "Using your dishwasher more efficiently will save money and the environment. Remember to run them only when full and choose shorter cycles. Upgrading to an energy-efficient model can save you even more.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Dishwasher_Hotspot_Click-EfficientDishwasher.mp3"
+				},
+				{
+					"x" : 889,
+					"y" : 298,
+					"hidden" : false,
+					"title" : "Stop the drip",
+					"body" : "Reduce waste by repairing leaky faucets - a faucet that leaks 60 drips per minute wastes over 3,153 gallons per year. Installing faucet aerators save water and can cost as little as $1. Saving water saves energy and the environment.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Faucet_Hotspot_Click-StopTheDrip.mp3"
+				},
+				{
+					"x" : 935,
+					"y" : 236,
+					"hidden" : false,
+					"title" : "Go dark",
+					"body" : "Turn off the lights when you leave a room. Simply turning off lights when they are not in use can lead to impressive cost savings. And instead of on/off switches, dimmers help you adjust the mood while saving energy.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Lightswitch_Hotspot_Click-GoDark.mp3"
+				},
+				{
+					"x" : 857,
+					"y" : 493,
+					"hidden" : false,
+					"title" : "Upgrade to save",
+					"body" : "When buying appliances look for the Energy Star® label – energy-efficient appliances will save you money, help the environment and show that you’re doing your part to help the state Stay Golden.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Dishwasher_Hotspot_Click-UpgradeToSave.mp3"
+				},
+				{
+					"x" : 330,
+					"y" : 281,
+					"hidden" : false,
+					"title" : "Upgrading pays",
+					"body" : "Upgrading to an energy-efficient appliance lowers your energy cost. You can also get up to $50 back from your local utility when you recycle your old working refrigerator.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Refrigerator_Hotspot_Click-UpgradingPays.mp3"
+				},
+				{
+					"x" : 350,
+					"y" : 331,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Refrigerator_Surprise_Rollover-Refrigerator.mp3"
+				},
+				{
+					"x" : 530,
+					"y" : 167,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Clock_Surprise_Rollover-Clock.mp3"
+				},
+				{
+					"x" : 1057,
+					"y" : 249,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Bear_Surprise_Rollover-OnBear.mp3"
+				},
+				{
+					"x" : 797,
+					"y" : 262,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_TV_Surprise_Rollover-TV.mp3"
+				}
+
+			]
+		},
+		{
+			"background" : "img/livingroom.jpg",
+			"width" : 1091, 
+			"initialPosition" : 7,
+			"spots" : [
+				{
+					"x" : 698,
+					"y" : 392,
+					"hidden" : false,
+					"title" : "Avoid vampires",
+					"body" : "Use advanced power strips for your TV, game consoles, cable box and other electronics. These nifty devices can turn everything off completely when not in use – killing the vampire load and saving energy.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/den/AHWB_Den_TVStand_Hotspot_Click-AvoidVampires.mp3"
+				},
+				{
+					"x" : 612,
+					"y" : 274,
+					"hidden" : false,
+					"title" : "Switch the switch",
+					"body" : "Install dimmers on overhead lights. Instead of on/off switches, dimmers help you adjust the mood while saving energy.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/den/AHWB_Den_Lightswitch_Hotspot_Click-Switchtheswitch.mp3"
+				},
+				{
+					"x" : 502,
+					"y" : 205,
+					"hidden" : false,
+					"title" : "Close the blinds",
+					"body" : "Draw the curtains on summer days. Keeping hot sun out of your home can reduce how much you run your AC, saving energy and money.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/den/AHWB_Den_Window_Hotspot_Click-CloseTheBlinds.mp3"
+				},
+				{
+					"x" : 389,
+					"y" : 608,
+					"hidden" : false,
+					"title" : "Magic carpets",
+					"body" : "Cover bare floors. Rugs and carpeting aid in heat retention, plus they’re more comfortable on bear feet, and bare feet.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/den/AHWB_Den_Rug_Hotspot_Click-MagicCarpets.mp3"
+				},
+				{
+					"x" : 391,
+					"y" : 185,
+					"hidden" : false,
+					"title" : "Flex for California",
+					"body" : "To help avoid blackouts and brownouts, run large appliances like your dishwasher, washer and dryer after 6 p.m. to reduce stress on the grid. And if a Flex Alert is called, do your part by turning off all unnecessary lights, computers, air conditioners, appliances and anything else that uses power.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/den/AHWB_Den_Clock_Hotspot_Click-FlexForCalifornia.mp3"
+				},
+				{
+					"x" : 745,
+					"y" : 258,
+					"hidden" : false,
+					"title" : "Manage the tube",
+					"body" : "Look for Energy Star® TVs and other appliances. Regular TVs continue to suck energy even when they are turned off. And dialing down the brightness a little on your TV can save you 15% every time you use it.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/den/AHWB_Den_TV_Hotspot_Click-ManageTheTube.mp3"
+				},
+				{
+					"x" : 329,
+					"y" : 452,
+					"hidden" : false,
+					"title" : "Sleeping computers",
+					"body" : "Use power saving modes on computers – a computer in “sleep” mode still uses about half the energy of an active computer. And shutting down your computer every night uses 50% less energy than sleep mode!",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/den/AHWB_Den_Laptop_Hotspot_Click-SleepingComputers.mp3"
+				},
+				{
+					"x" : 644,
+					"y" : 223,
+					"hidden" : false,
+					"title" : "Stay cool",
+					"body" : "Install a programmable thermostat. Depending on the time of day, even adjusting it a few degrees up or down will save you money and help the environment.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/den/AHWB_Den_Thermostat_Hotspot_Click-StayCool.mp3"
+				},
+				{
+					"x" : 502,
+					"y" : 295,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/den/AHWB_Den_Drums_Surprise_Rollover-DrumSet.mp3"
+				},
+				{
+					"x" : 411,
+					"y" : 285,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/den/AHWB_Den_Bookcase_Surprise_Rollover-Bookcase.mp3"
+				},
+				{
+					"x" : 59,
+					"y" : 502,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/den/AHWB_Den_Magazines_Surprise_Rollover-MagazineStack.mp3"
+				},
+				{
+					"x" : 615,
+					"y" : 505,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/den/AHWB_Den_VampireBook_Surprise_Rollover-VampiresBook.mp3"
+				}
+			]
+		},
+		{
+			"background" : "img/bathroom.jpg",
+			"width" : 1077, 
+			"initialPosition" : 149,
+			"spots" : [
+				{
+					"x" : 433,
+					"y" : 139,
+					"hidden" : false,
+					"title" : "Lighten up the bathroom",
+					"body" : "Replacing old light bulbs with high efficiency LEDs is a great way to save energy in your bathroom. When buying new bulbs, think lumens, not watts. Lumens measure how much light you’re getting from a bulb. For example, a 75-watt bulb is the equivalent in brightness to 1100 lumens.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Lightbulb_Hotspot_Click-LightenUpTheBathroon.mp3"
+				},
+				{
+					"x" : 872,
+					"y" : 503,
+					"hidden" : false,
+					"title" : "Flush away energy wasting",
+					"body" : "Repair leaky faucets and toilets promptly. A faucet that leaks just 60 drips per minute wastes over 3,153 gallons per year.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Toilet_Hotspot_Click-Flushawaywaterwasting.mp3"
+				},
+				{
+					"x" : 120,
+					"y" : 200,
+					"hidden" : false,
+					"title" : "Manage water",
+					"body" : "Take shorter showers instead of baths. A five-minute shower can use up to 25 gallons less water than a 10-minute shower or a bath. And since you won’t be heating as much water, you’ll save energy too.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Bathtub_Hotspot_Click-ManageWater.mp3"
+				},
+				{
+					"x" : 523,
+					"y" : 377,
+					"hidden" : false,
+					"title" : "Golden whites",
+					"body" : "Turn off the faucet when brushing your teeth. Your family can save up to 3,000 gallons a year.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Sink_Hotspot_Click-GoldenWhites.mp3"
+				},
+				{
+					"x" : 607,
+					"y" : 391,
+					"hidden" : false,
+					"title" : "Buy Golden",
+					"body" : "When buying appliances look for the Energy Star rating. These appliances will save you money, help the environment, and show that you’re doing your part to help the state Stay Golden!",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_HairDryer_Hotspot_Click-Buygolden.mp3"
+				},
+				{
+					"x" : 507,
+					"y" : 404,
+					"hidden" : false,
+					"title" : "Shave to save",
+					"body" : "Plug the sink while shaving. Try this instead of running the water to rinse your razor and save up to 300 gallons a month.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Sink_Hotspot_Click-ShaveToSave.mp3"
+				},
+				{
+					"x" : 562,
+					"y" : 380,
+					"hidden" : false,
+					"title" : "Save at the sink",
+					"body" : "Installing a faucet aerator saves water and can cost as little as $1. Don’t forget that water uses energy too – running a faucet for 5 minutes uses about as much energy as keeping a 60-watt light bulb on for 14 hours.",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_SinkFaucet_Hotspot_Click-SaveAtTheSink.mp3"
+				},
+				{
+					"x" : 486,
+					"y" : 542,
+					"hidden" : false,
+					"title" : "Natural light",
+					"body" : "Why not skip the lights all together? Use natural lighting where possible, and candles can make a nice change!",
+					"shareTitle" : "FPO Facebook Title",
+					"shareBody" : "FPO Facebook Description",
+					"shareImage" : "http://www.energyupgradeca.org/~/media/energy-upgrade/images/banner-images/home01.jpg",
+					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Candels_Hotspot_Click-NaturalLight.mp3"
+				},
+				{
+					"x" : 341,
+					"y" : 378,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Towel_Surprise_Rollover-Towel.mp3"
+				},
+				{
+					"x" : 321,
+					"y" : 528,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_RubberDucky_Surprise_Rollover-RubberDucky.mp3"
+				},
+				{
+					"x" : 714,
+					"y" : 196,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Wallpaper_Surprise_Rollover-ForestWallpaper.mp3"
+				},
+				{
+					"x" : 902,
+					"y" : 303,
+					"hidden" : true,
+					"title" : "Click to play audio",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_PictureFrame_Surprise_Rollover-PictureFrame.mp3"
+				}
+			]
+		}
+	]
+}
