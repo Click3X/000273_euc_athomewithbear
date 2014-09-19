@@ -31,6 +31,7 @@ body, html {
 	overflow:hidden;
 	position:relative;
 	height:710px;
+	width:960px;
 	-webkit-transition:-webkit-filter 0.3s ease-in-out; 
 }
 
@@ -199,7 +200,7 @@ body, html {
 
 #overlaywrapper .close {
 	position: absolute;
-	top:114px;
+	top:94px;
 	right:122px;
 	background:url(img/sprites.png) no-repeat -601px -147px;
 	height:28px;
@@ -208,15 +209,15 @@ body, html {
 }
 
 #overlaywrapper .overlay {
-	width:705px;
-	height:423px;
-	margin:141px auto;
+	width:706px;
+	height:463px;
+	margin:121px auto;
 	position:relative;
 }
 
 #overlaywrapper .overlay.info, #overlaywrapper .overlay.sweeps.locked {
 	background:url(img/pop_bg1.jpg) no-repeat top left #fff;
-	padding: 62px 50px 0 306px;
+	padding: 102px 40px 0 316px;
 }
 
 #overlaywrapper #overlayiframe {
@@ -242,7 +243,7 @@ body, html {
 	font-size:17px;
 	line-height: 150%;
 	color:#3a3a3a;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 #overlaywrapper .overlay .share {
@@ -305,3 +306,16 @@ body, html {
 	margin-left:23px;
 	text-align: left;
 }
+
+.soundon {
+	color:#fff;
+	size:14px;
+	font-weight: bold;
+	position: absolute;
+	top:22px;
+	right:40px;
+	text-shadow: 1px 1px 1px rgba(2, 2, 2, .36);
+	filter: progid:DXImageTransform.Microsoft.glow(color=#020202,strength=2);
+	text-transform: uppercase;
+}
+

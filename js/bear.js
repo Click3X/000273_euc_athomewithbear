@@ -19,8 +19,9 @@ var Bear = Bear || {
 		Bear.loadData();
 		Bear.initNav();
 		Bear.clickModel = {0:[], 1:[], 2:[]};
-		Bear.autotriggerSweeps = true;
+		//Bear.autotriggerSweeps = true;
 		Bear.sweepsUnlocked = false;
+		Bear.canShownSweeps = [true, true, true];
 	},
 	loadData:function(url, callback){
 		$.getJSON( "js/config.json", function( data ) {
@@ -227,7 +228,7 @@ var Bear = Bear || {
     	        if (s.hidden)
     	        {
     	        	Bear.countOverlayClick(i);
-    	        	if (Bear.sweepsUnlocked && Bear.autotriggerSweeps)
+    	        	if (Bear.sweepsUnlocked && Bear.canShownSweeps[Bear.selectedSection])
 					{
 						Bear.showSweeps(500);
 					}
@@ -289,10 +290,10 @@ var Bear = Bear || {
 		Sound.stopAll(true);
 		var overlayClass = 'overlay ' + type;
 		if (!Bear.sweepsUnlocked && type == 'sweeps') overlayClass += " locked";
+		var thisScene = Bear.config.scenes[Bear.selectedSection];
 		if (type == 'info')
 		{
 			Bear.countOverlayClick(index);
-			var thisScene = Bear.config.scenes[Bear.selectedSection];
 			var thisSpot = thisScene.spots[index];
 		}
 		
@@ -307,7 +308,7 @@ var Bear = Bear || {
 		{
 			if (Bear.sweepsUnlocked)
 			{
-				var url = Bear.config.sweepsurl;
+				var url = thisScene.sweepsurl;
 				overlayHTML += "<iframe id='overlayiframe'src='"+url+"'></iframe>";
 			}
 			else
@@ -333,7 +334,7 @@ var Bear = Bear || {
 				}, function(response){});
 							});
 			overlay.find('.twitter').click(function(){
-				var url = 'http://twitter.com/share?url='+encodeURIComponent(Bear.config.siteurl)+'&text='+encodeURIComponent(thisSpot.twitterText);
+				var url = 'http://twitter.com/share?url='+encodeURIComponent(Bear.config.siteurl)+'&text='+encodeURIComponent(thisSpot.shareBody); //change back to thisSpot.twitterText
 				window.open(url,'tweet','width=550,height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1');
 			});
 
@@ -347,7 +348,7 @@ var Bear = Bear || {
 			Sound.stopAll(true);
 			//if (sound) Sound.stop(sound, true);
 			Bear.hideOverlay();
-			if (type == 'info' && Bear.sweepsUnlocked && Bear.autotriggerSweeps)
+			if (type == 'info' && Bear.sweepsUnlocked && Bear.canShownSweeps[Bear.selectedSection])
 			{
 				Bear.showSweeps(500);
 			}
@@ -358,7 +359,7 @@ var Bear = Bear || {
 	showSweeps:function(delay){
 		setTimeout(function() { 
 					Bear.showOverlay('sweeps', -1);
-					Bear.autotriggerSweeps = false; 
+					Bear.canShownSweeps[Bear.selectedSection] = false; 
 				}, delay);
 	},
 	countOverlayClick:function(index){
