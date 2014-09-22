@@ -28,6 +28,14 @@
 	</head>
 	<body class="bear">
 		<script>
+			<? 
+				$url  = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
+				$url .= $_SERVER['SERVER_NAME'];
+				$url .= $_SERVER['REQUEST_URI']; 
+			?>
+			var siteRoot = '<?= dirname($url); ?>';
+		</script>
+		<script>
       window.fbAsyncInit = function() {
         FB.init({
           appId      : <?= $fbAppId ?>,

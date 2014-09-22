@@ -330,7 +330,7 @@ var Bear = Bear || {
 				  link: Bear.config.siteurl,
 				  caption: thisSpot.shareTitle,
 				  description: thisSpot.shareBody,
-				  picture: thisSpot.shareImage,
+				  picture: siteRoot + thisSpot.shareImage,
 				}, function(response){});
 							});
 			overlay.find('.twitter').click(function(){
