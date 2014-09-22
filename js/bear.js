@@ -20,8 +20,8 @@ var Bear = Bear || {
 		Bear.initNav();
 		Bear.clickModel = {0:[], 1:[], 2:[]};
 		//Bear.autotriggerSweeps = true;
-		Bear.sweepsUnlocked = false;
-		Bear.canShownSweeps = [true, true, true];
+		Bear.sweepsUnlocked = [false, false, false];
+		Bear.canShowSweeps = [true, true, true];
 	},
 	loadData:function(url, callback){
 		$.getJSON( "js/config.json", function( data ) {
@@ -83,21 +83,11 @@ var Bear = Bear || {
 			var content = $("#content");
 			Bear.trayWrapper = $("<div id='trayWrapper'></div>").appendTo(content);
 			Bear.tray = $("<div id='tray'></div>").appendTo(trayWrapper);
-			Bear.tray.css({'width':thisScene.width, 'background-image':'url('+thisScene.background+')'});
+			Bear.tray.css({ 'width':thisScene.width });
 			content.fadeTo(0,0);
-			content.animate({opacity:1}, 300);
+			
 			if (Bear.isTouchDevice)
 			{
-				// add touch to drag
-				/*
-				Bear.trayWrapper.kinetic({
-					'cursor':'', 
-					'y':'false', 
-					'triggerHardware':false, 
-					filterTarget: function(target, e){
-						return !(/spot/i.test(target.className));
-					}
-				});*/
 				Bear.trayWrapper.scrollLeft(thisScene.initialPosition);
 			}
 			else
@@ -112,8 +102,13 @@ var Bear = Bear || {
 			}
 			
 			var counter = $("<div id='counter'><span class='first'>0</span><span class='second'></span></div>").appendTo(content);
-
-			Bear.drawSpots(tray);
+			$('<img/>').attr('src', thisScene.background).load(function() {
+			   $(this).remove();
+			   Bear.tray.css('background-image', 'url('+thisScene.background+')');
+			   content.animate({opacity:1}, 300);
+			   Bear.drawSpots(tray);
+			});
+			
 			
 		}
 	},
@@ -144,6 +139,8 @@ var Bear = Bear || {
 		var viewableWidth = $("#content").width();
 		$.each(thisScene.spots, function(i,s){
             var spot = $("<div class='spot'></div>").appendTo(host);
+            //spot.fadeOut(0);
+            //spot.delay(i*200).fadeIn(200);
             if (s.hidden)
             {
             	spot.addClass("hidden");
@@ -228,7 +225,7 @@ var Bear = Bear || {
     	        if (s.hidden)
     	        {
     	        	Bear.countOverlayClick(i);
-    	        	if (Bear.sweepsUnlocked && Bear.canShownSweeps[Bear.selectedSection])
+    	        	if (Bear.sweepsUnlocked[Bear.selectedSection] && Bear.canShowSweeps[Bear.selectedSection])
 					{
 						Bear.showSweeps(500);
 					}
@@ -289,7 +286,7 @@ var Bear = Bear || {
 	showOverlay:function(type, index){
 		Sound.stopAll(true);
 		var overlayClass = 'overlay ' + type;
-		if (!Bear.sweepsUnlocked && type == 'sweeps') overlayClass += " locked";
+		if (!Bear.sweepsUnlocked[Bear.selectedSection] && type == 'sweeps') overlayClass += " locked";
 		var thisScene = Bear.config.scenes[Bear.selectedSection];
 		if (type == 'info')
 		{
@@ -306,7 +303,7 @@ var Bear = Bear || {
 		}
 		else if (type = 'sweeps')
 		{
-			if (Bear.sweepsUnlocked)
+			if (Bear.sweepsUnlocked[Bear.selectedSection])
 			{
 				var url = thisScene.sweepsurl;
 				overlayHTML += "<iframe id='overlayiframe'src='"+url+"'></iframe>";
@@ -348,7 +345,7 @@ var Bear = Bear || {
 			Sound.stopAll(true);
 			//if (sound) Sound.stop(sound, true);
 			Bear.hideOverlay();
-			if (type == 'info' && Bear.sweepsUnlocked && Bear.canShownSweeps[Bear.selectedSection])
+			if (type == 'info' && Bear.sweepsUnlocked[Bear.selectedSection] && Bear.canShowSweeps[Bear.selectedSection])
 			{
 				Bear.showSweeps(500);
 			}
@@ -359,7 +356,7 @@ var Bear = Bear || {
 	showSweeps:function(delay){
 		setTimeout(function() { 
 					Bear.showOverlay('sweeps', -1);
-					Bear.canShownSweeps[Bear.selectedSection] = false; 
+					Bear.canShowSweeps[Bear.selectedSection] = false; 
 				}, delay);
 	},
 	countOverlayClick:function(index){
@@ -385,7 +382,7 @@ var Bear = Bear || {
 		$("#counter .second").text(total);
 		if (currentClicks.length == total)
 		{
-			Bear.sweepsUnlocked = true;			
+			Bear.sweepsUnlocked[Bear.selectedSection] = true;			
 		}
 	},
 	hideOverlay:function(){
@@ -432,7 +429,6 @@ var Sound = Sound || {
 		if ($(".sound-player").length > 0 )
 		{
 			$(".sound-player").each(function(index){
-				console.log($(this).attr("id"));
 				Sound.stop($(this).attr("id"), fade);
 			});
 		}
