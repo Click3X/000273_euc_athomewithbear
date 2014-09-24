@@ -246,6 +246,18 @@ body, html {
 	font-weight: 400;
 }
 
+#overlaywrapper .overlay.sweeps.locked .share {
+	width:300px;
+	font-size:14px;
+}
+
+#overlaywrapper .overlay.sweeps.locked .share a {
+	line-height:34px;
+	color:#fff;
+	font-size:14px;
+	font-weight: 200;
+}
+
 #overlaywrapper .overlay .share {
 	position: absolute;
 	bottom: 8px;
@@ -261,6 +273,8 @@ body, html {
 	text-shadow: 1px 1px 1px rgba(2, 2, 2, .36);
 	filter: progid:DXImageTransform.Microsoft.glow(color=#020202,strength=2);
 }
+
+
 
 #overlaywrapper .overlay .share .facebook, #overlaywrapper .overlay .share .twitter {
 	width:34px;

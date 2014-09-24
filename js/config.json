@@ -1,11 +1,12 @@
 {
 	"siteurl" : "http://energyupgradeca.org",
+	"sweepsurl" : "https://euca.promosvcs.com",
 	"scenes": [
 		{
 			"background" : "img/kitchen.jpg",
 			"width" : 1367, 
 			"initialPosition" : 353,
-			"sweepsurl" : "https://euc347-staging.azurewebsites.net/",
+			"track" : "bk-bears-kitchen",
 			"spots" : [
 				{
 					"x" : 643,
@@ -16,8 +17,9 @@
 					"shareTitle" : "I pledge to Stay Golden by upgrading to energy efficient light bulbs.",
 					"shareBody" : "I pledge to help California Stay Golden by replace old bulbs with energy efficient LED’s. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Lightbulb_Hotspot_Click-IlluminateWithLumens.mp3"
+					"twitterText" : "I pledge to Stay Golden and swap old bulbs w/ energy efficient LEDs. Learn to Stay Golden and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Lightbulb_Hotspot_Click-IlluminateWithLumens.mp3",
+					"track" : "bk-illuminate-with-lumens"
 				},
 				{
 					"x" : 490,
@@ -28,8 +30,9 @@
 					"shareTitle" : "I pledge to Stay Golden during Flex Alerts.",
 					"shareBody" : "I pledge to turn off the lights when I leave a room, and do my part during a Flex Alert. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Clock_Hotspot_Click-HelpDuringAFlexAlert.mp3"
+					"twitterText" : "I pledge to Stay Golden and do my part during a Flex Alert. Learn to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Clock_Hotspot_Click-HelpDuringAFlexAlert.mp3",
+					"track" : "bk-help-during-a-flex-alert"
 				},
 				{
 					"x" : 85,
@@ -40,8 +43,9 @@
 					"shareTitle" : "I pledge to Stay Golden by unplugging unused appliances.",
 					"shareBody" : "I pledge to help California Stay Golden by unplugging unused appliances. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_CoffeePot_Hotspot_Click-CutThePower.mp3"
+					"twitterText" : "I pledge to Stay Golden and unplug my unused appliances. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_CoffeePot_Hotspot_Click-CutThePower.mp3",
+					"track" : "bk-cut-the-power"
 				},
 				{
 					"x" : 857,
@@ -52,8 +56,9 @@
 					"shareTitle" : "I pledge to Stay Golden by managing my water and energy use.",
 					"shareBody" : "I pledge to help California Stay Golden by managing my water and energy use. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Dishwasher_Hotspot_Click-EfficientDishwasher.mp3"
+					"twitterText" : "I pledge to Stay Golden by managing water and energy use. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Dishwasher_Hotspot_Click-EfficientDishwasher.mp3",
+					"track" : "bk-efficient-dishwasher"
 				},
 				{
 					"x" : 889,
@@ -64,8 +69,9 @@
 					"shareTitle" : "I pledge to Stay Golden by managing my water and energy use.",
 					"shareBody" : "I pledge to help California Stay Golden by managing my water and energy use. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Faucet_Hotspot_Click-StopTheDrip.mp3"
+					"twitterText" : "I pledge to Stay Golden by managing water and energy use. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Faucet_Hotspot_Click-StopTheDrip.mp3",
+					"track" : "bk-stop-the-drip"
 				},
 				{
 					"x" : 935,
@@ -76,8 +82,9 @@
 					"shareTitle" : "I pledge to Stay Golden by upgrading to energy efficient light bulbs.",
 					"shareBody" : "I pledge to help California Stay Golden by replace old bulbs with energy efficient LED’s. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Lightswitch_Hotspot_Click-GoDark.mp3"
+					"twitterText" : "I pledge to Stay Golden and swap old bulbs w/ energy efficient LEDs. Learn to Stay Golden and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Lightswitch_Hotspot_Click-GoDark.mp3",
+					"track" : "bk-go-dark"
 				},
 				{
 					"x" : 857,
@@ -88,8 +95,9 @@
 					"shareTitle" : "I pledge to Stay Golden by upgrading to energy efficient appliances.",
 					"shareBody" : "I pledge to help California Stay Golden by upgrading to energy efficient appliances. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Dishwasher_Hotspot_Click-UpgradeToSave.mp3"
+					"twitterText" : "I pledge to Stay Golden by upgrading to energy efficient appliances. Learn to Stay Golden and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Dishwasher_Hotspot_Click-UpgradeToSave.mp3",
+					"track" : "bk-upgrade-to-save"
 				},
 				{
 					"x" : 330,
@@ -100,36 +108,41 @@
 					"shareTitle" : "I pledge to Stay Golden by upgrading to energy efficient appliances.",
 					"shareBody" : "I pledge to help California Stay Golden by upgrading to energy efficient appliances. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Refrigerator_Hotspot_Click-UpgradingPays.mp3"
+					"twitterText" : "I pledge to Stay Golden by upgrading to energy efficient appliances. Learn to Stay Golden and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Refrigerator_Hotspot_Click-UpgradingPays.mp3",
+					"track" : "bk-upgrading-pays"
 				},
 				{
 					"x" : 350,
 					"y" : 331,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Refrigerator_Surprise_Rollover-Refrigerator.mp3"
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Refrigerator_Surprise_Rollover-Refrigerator.mp3",
+					"track" : "bk-surprise-refrigerator"
 				},
 				{
 					"x" : 530,
 					"y" : 167,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Clock_Surprise_Rollover-Clock.mp3"
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Clock_Surprise_Rollover-Clock.mp3",
+					"track" : "bk-surprise-clock"
 				},
 				{
 					"x" : 1057,
 					"y" : 249,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_Bear_Surprise_Rollover-OnBear.mp3"
+					"sfx" : "audio/kitchen/AHWB_Kitchen_Bear_Surprise_Rollover-OnBear.mp3",
+					"track" : "bk-surprise-on-bear"
 				},
 				{
 					"x" : 797,
 					"y" : 262,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/kitchen/AHWB_Kitchen_TV_Surprise_Rollover-TV.mp3"
+					"sfx" : "audio/kitchen/AHWB_Kitchen_TV_Surprise_Rollover-TV.mp3",
+					"track" : "bk-surprise-tv"
 				}
 
 			]
@@ -138,7 +151,7 @@
 			"background" : "img/livingroom.jpg",
 			"width" : 1091, 
 			"initialPosition" : 7,
-			"sweepsurl" : "https://euc347-staging.azurewebsites.net/",
+			"track" : "bd-bears-den",
 			"spots" : [
 				{
 					"x" : 698,
@@ -149,8 +162,9 @@
 					"shareTitle" : "I pledge to Stay Golden by unplugging unused appliances.",
 					"shareBody" : "I pledge to help California Stay Golden by unplugging unused appliances. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/den/AHWB_Den_TVStand_Hotspot_Click-AvoidVampires.mp3"
+					"twitterText" : "I pledge to Stay Golden and unplug my unused appliances. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/den/AHWB_Den_TVStand_Hotspot_Click-AvoidVampires.mp3",
+					"track" : "bd-avoid-vampires"
 				},
 				{
 					"x" : 612,
@@ -161,8 +175,9 @@
 					"shareTitle" : "I pledge to Stay Golden by upgrading to energy efficient light bulbs.",
 					"shareBody" : "I pledge to help California Stay Golden by replace old bulbs with energy efficient LED’s. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/den/AHWB_Den_Lightswitch_Hotspot_Click-Switchtheswitch.mp3"
+					"twitterText" : "I pledge to Stay Golden and swap old bulbs w/ energy efficient LEDs. Learn to Stay Golden and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/den/AHWB_Den_Lightswitch_Hotspot_Click-Switchtheswitch.mp3",
+					"track" : "bd-switch-the-switch"
 				},
 				{
 					"x" : 502,
@@ -173,8 +188,9 @@
 					"shareTitle" : "I pledge to Stay Golden by managing my energy use.",
 					"shareBody" : "I pledge to help California Stay Golden by managing my energy use. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/den/AHWB_Den_Window_Hotspot_Click-CloseTheBlinds.mp3"
+					"twitterText" : "I pledge to Stay Golden and manage my energy use. Learn ways to manage your energy use and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/den/AHWB_Den_Window_Hotspot_Click-CloseTheBlinds.mp3",
+					"track" : "bd-close-the-blinds"
 				},
 				{
 					"x" : 389,
@@ -185,8 +201,9 @@
 					"shareTitle" : "I pledge to Stay Golden by managing my energy use.",
 					"shareBody" : " I pledge to help California Stay Golden by managing my energy use. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/den/AHWB_Den_Rug_Hotspot_Click-MagicCarpets.mp3"
+					"twitterText" : "I pledge to Stay Golden and manage my energy use. Learn ways to manage your energy use and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/den/AHWB_Den_Rug_Hotspot_Click-MagicCarpets.mp3",
+					"track" : "bd-magic-carpets"
 				},
 				{
 					"x" : 391,
@@ -197,8 +214,9 @@
 					"shareTitle" : "I pledge to Stay Golden during Flex Alerts.",
 					"shareBody" : "I pledge to turn off the lights when I leave a room, and do my part during a Flex Alert. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/den/AHWB_Den_Clock_Hotspot_Click-FlexForCalifornia.mp3"
+					"twitterText" : "I pledge to Stay Golden and do my part during a Flex Alert. Learn to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/den/AHWB_Den_Clock_Hotspot_Click-FlexForCalifornia.mp3",
+					"track" : "bd-flex-for-california"
 				},
 				{
 					"x" : 745,
@@ -209,8 +227,9 @@
 					"shareTitle" : "I pledge to Stay Golden by upgrading to energy efficient appliances.",
 					"shareBody" : "I pledge to help California Stay Golden by upgrading to energy efficient appliances. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/den/AHWB_Den_TV_Hotspot_Click-ManageTheTube.mp3"
+					"twitterText" : "I pledge to Stay Golden by upgrading to energy efficient appliances. Learn to Stay Golden and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/den/AHWB_Den_TV_Hotspot_Click-ManageTheTube.mp3",
+					"track" : "bd-manage-the-tube"
 				},
 				{
 					"x" : 329,
@@ -221,8 +240,9 @@
 					"shareTitle" : "I pledge to Stay Golden by unplugging unused appliances.",
 					"shareBody" : "I pledge to help California Stay Golden by unplugging unused appliances. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/den/AHWB_Den_Laptop_Hotspot_Click-SleepingComputers.mp3"
+					"twitterText" : "I pledge to Stay Golden and unplug my unused appliances. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/den/AHWB_Den_Laptop_Hotspot_Click-SleepingComputers.mp3",
+					"track" : "bd-sleeping-computers"
 				},
 				{
 					"x" : 644,
@@ -233,36 +253,41 @@
 					"shareTitle" : "I pledge to Stay Golden by managing my energy use.",
 					"shareBody" : "I pledge to help California Stay Golden by managing my energy use. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/den/AHWB_Den_Thermostat_Hotspot_Click-StayCool.mp3"
+					"twitterText" : "I pledge to Stay Golden and manage my energy use. Learn ways to manage your energy use and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/den/AHWB_Den_Thermostat_Hotspot_Click-StayCool.mp3",
+					"track" : "bd-stay-cool"
 				},
 				{
 					"x" : 502,
 					"y" : 295,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/den/AHWB_Den_Drums_Surprise_Rollover-DrumSet.mp3"
+					"sfx" : "audio/den/AHWB_Den_Drums_Surprise_Rollover-DrumSet.mp3",
+					"track" : "bd-surprise-drum-set"
 				},
 				{
 					"x" : 411,
 					"y" : 285,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/den/AHWB_Den_Bookcase_Surprise_Rollover-Bookcase.mp3"
+					"sfx" : "audio/den/AHWB_Den_Bookcase_Surprise_Rollover-Bookcase.mp3",
+					"track" : "bd-surprise-bookcase"
 				},
 				{
 					"x" : 59,
 					"y" : 502,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/den/AHWB_Den_Magazines_Surprise_Rollover-MagazineStack.mp3"
+					"sfx" : "audio/den/AHWB_Den_Magazines_Surprise_Rollover-MagazineStack.mp3",
+					"track" : "bd-surprise-magazine-stack"
 				},
 				{
 					"x" : 615,
 					"y" : 505,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/den/AHWB_Den_VampireBook_Surprise_Rollover-VampiresBook.mp3"
+					"sfx" : "audio/den/AHWB_Den_VampireBook_Surprise_Rollover-VampiresBook.mp3",
+					"track" : "bd-surprise-vampires-book"
 				}
 			]
 		},
@@ -270,7 +295,7 @@
 			"background" : "img/bathroom.jpg",
 			"width" : 1077, 
 			"initialPosition" : 149,
-			"sweepsurl" : "https://euc347-staging.azurewebsites.net/",
+			"track" : "bb-bears-bathroom",
 			"spots" : [
 				{
 					"x" : 433,
@@ -281,8 +306,9 @@
 					"shareTitle" : "I pledge to Stay Golden by upgrading to energy efficient light bulbs.",
 					"shareBody" : "I pledge to help California Stay Golden by replace old bulbs with energy efficient LED’s. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_Lightbulb_Hotspot_Click-LightenUpTheBathroon.mp3"
+					"twitterText" : "I pledge to Stay Golden and swap old bulbs w/ energy efficient LEDs. Learn to Stay Golden and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Lightbulb_Hotspot_Click-LightenUpTheBathroon.mp3",
+					"track" : "bb-lighten-up-the-bathroom"
 				},
 				{
 					"x" : 872,
@@ -293,8 +319,9 @@
 					"shareTitle" : "FPO Facebook Title",
 					"shareBody" : "FPO Facebook Description",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_Toilet_Hotspot_Click-Flushawaywaterwasting.mp3"
+					"twitterText" : "I pledge to Stay Golden by managing water and energy use. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Toilet_Hotspot_Click-Flushawaywaterwasting.mp3",
+					"track" : "bb-flush-away-water-wasting"
 				},
 				{
 					"x" : 120,
@@ -305,8 +332,9 @@
 					"shareTitle" : "FPO Facebook Title",
 					"shareBody" : "FPO Facebook Description",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_Bathtub_Hotspot_Click-ManageWater.mp3"
+					"twitterText" : "I pledge to Stay Golden by managing water and energy use. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Bathtub_Hotspot_Click-ManageWater.mp3",
+					"track" : "bb-manage-water"
 				},
 				{
 					"x" : 523,
@@ -317,8 +345,9 @@
 					"shareTitle" : "I pledge to Stay Golden by managing my water and energy use.",
 					"shareBody" : "I pledge to help California Stay Golden by managing my water and energy use. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_Sink_Hotspot_Click-GoldenWhites.mp3"
+					"twitterText" : "I pledge to Stay Golden by managing water and energy use. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Sink_Hotspot_Click-GoldenWhites.mp3",
+					"track" : "bb-golden-whites"
 				},
 				{
 					"x" : 607,
@@ -329,8 +358,9 @@
 					"shareTitle" : "I pledge to Stay Golden by upgrading to energy efficient appliances.",
 					"shareBody" : "I pledge to help California Stay Golden by upgrading to energy efficient appliances. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_HairDryer_Hotspot_Click-Buygolden.mp3"
+					"twitterText" : "I pledge to Stay Golden by upgrading to energy efficient appliances. Learn to Stay Golden and enter to win giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_HairDryer_Hotspot_Click-Buygolden.mp3",
+					"track" : "bb-buy-golden"
 				},
 				{
 					"x" : 507,
@@ -341,8 +371,9 @@
 					"shareTitle" : "I pledge to Stay Golden by managing my water and energy use.",
 					"shareBody" : "I pledge to help California Stay Golden by managing my water and energy use. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_Sink_Hotspot_Click-ShaveToSave.mp3"
+					"twitterText" : "I pledge to Stay Golden by managing water and energy use. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Sink_Hotspot_Click-ShaveToSave.mp3",
+					"track" : "bb-shave-to-save"
 				},
 				{
 					"x" : 562,
@@ -353,8 +384,9 @@
 					"shareTitle" : "I pledge to Stay Golden by managing my water and energy use.",
 					"shareBody" : "I pledge to help California Stay Golden by managing my water and energy use. Learn ways you can Stay Golden, pledge to do your part, and enter to win awesome giveaways.",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_SinkFaucet_Hotspot_Click-SaveAtTheSink.mp3"
+					"twitterText" : "I pledge to Stay Golden by managing water and energy use. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_SinkFaucet_Hotspot_Click-SaveAtTheSink.mp3",
+					"track" : "bb-save-at-the-sink"
 				},
 				{
 					"x" : 486,
@@ -365,36 +397,41 @@
 					"shareTitle" : "FPO Facebook Title",
 					"shareBody" : "FPO Facebook Description",
 					"shareImage" : "/img/PLEDGE_SHARE1.jpg",
-					"twitterText" : "FPO Twitter Share Text http://www.energyupgradeca.org/en/",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_Candels_Hotspot_Click-NaturalLight.mp3"
+					"twitterText" : "I pledge to Stay Golden by managing water and energy use. Learn how to Stay Golden and enter to win awesome giveaways at EnergyUpgradeCA.org",
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Candels_Hotspot_Click-NaturalLight.mp3",
+					"track" : "bb-natural-light"
 				},
 				{
 					"x" : 341,
 					"y" : 378,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_Towel_Surprise_Rollover-Towel.mp3"
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Towel_Surprise_Rollover-Towel.mp3",
+					"track" : "bb-surprise-towel"
 				},
 				{
 					"x" : 321,
 					"y" : 528,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_RubberDucky_Surprise_Rollover-RubberDucky.mp3"
+					"sfx" : "audio/bathroom/AHWB_Bathroom_RubberDucky_Surprise_Rollover-RubberDucky.mp3",
+					"track" : "bb-surprise-rubber-ducky"
 				},
 				{
 					"x" : 714,
 					"y" : 196,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_Wallpaper_Surprise_Rollover-ForestWallpaper.mp3"
+					"sfx" : "audio/bathroom/AHWB_Bathroom_Wallpaper_Surprise_Rollover-ForestWallpaper.mp3",
+					"track" : "bb-surprise-forest-wallpaper"
 				},
 				{
 					"x" : 902,
 					"y" : 303,
 					"hidden" : true,
 					"title" : "Click to play audio",
-					"sfx" : "audio/bathroom/AHWB_Bathroom_PictureFrame_Surprise_Rollover-PictureFrame.mp3"
+					"sfx" : "audio/bathroom/AHWB_Bathroom_PictureFrame_Surprise_Rollover-PictureFrame.mp3",
+					"track" : "bb-surprise-picture-frame"
 				}
 			]
 		}
