@@ -317,7 +317,7 @@ var Bear = Bear || {
 				ga('send', 'event', 'bs-bear-sweeps-locked', '');
 				overlayHTML += "<h2>KEEP EXPLORING to win!</h2>";
 				overlayHTML += "<div class='body'>Keep looking for tips, find them all in one room and enter for a chance to win a $500 gift card.</div>";
-				overlayHTML += "<div class='share'><span><a href='' target='_blank'>VIEW SWEEPSTAKES RULES</a></span></div>";
+				overlayHTML += "<div class='share'><span><a href='https://euca.promosvcs.com/rules' target='_blank'>VIEW SWEEPSTAKES RULES</a></span></div>";
 			}
 			
 		}
