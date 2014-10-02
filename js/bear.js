@@ -339,7 +339,7 @@ var Bear = Bear || {
 							});
 			overlay.find('.twitter').click(function(){
 				ga('send', 'event', thisSpot.track+'-twitter', '');
-				var url = 'http://twitter.com/share?url='+encodeURIComponent(Bear.config.siteurl)+'&text='+encodeURIComponent(thisSpot.twitterText);
+				var url = 'http://twitter.com/share?text='+encodeURIComponent(thisSpot.twitterText);
 				window.open(url,'tweet','width=550,height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1');
 			});
 
