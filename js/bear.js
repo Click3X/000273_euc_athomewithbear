@@ -12,6 +12,17 @@ $( document ).ready( function() {
 	Bear.init();
 });
 
+/* fix background-position in ie8 and below */
+(function($) {
+  jQuery.fn.backgroundPosition = function() {
+    var p = $(this).css('background-position');
+    if(typeof(p) === 'undefined') 
+        return $(this).css('background-position-x') 
+               + ' ' + $(this).css('background-position-y');
+    else return p;
+  };
+})(jQuery);
+
 var Bear = Bear || {
 	init:function(){
 		Bear.isTouchDevice = 'ontouchstart' in document.documentElement;
@@ -317,7 +328,7 @@ var Bear = Bear || {
 				ga('send', 'event', 'bs-bear-sweeps-locked', '');
 				overlayHTML += "<h2>KEEP EXPLORING to win!</h2>";
 				overlayHTML += "<div class='body'>Keep looking for tips, find them all in one room and enter for a chance to win a $500 gift card.</div>";
-				overlayHTML += "<div class='share'><span><a href='https://euca.promosvcs.com/rules' target='_blank'>VIEW SWEEPSTAKES RULES</a></span></div>";
+				overlayHTML += "<div class='share'><span><a href='' target='_blank'>VIEW SWEEPSTAKES RULES</a></span></div>";
 			}
 			
 		}
@@ -339,7 +350,7 @@ var Bear = Bear || {
 							});
 			overlay.find('.twitter').click(function(){
 				ga('send', 'event', thisSpot.track+'-twitter', '');
-				var url = 'http://twitter.com/share?text='+encodeURIComponent(thisSpot.twitterText);
+				var url = 'http://twitter.com/share?url='+encodeURIComponent(Bear.config.siteurl)+'&text='+encodeURIComponent(thisSpot.twitterText);
 				window.open(url,'tweet','width=550,height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1');
 			});
 
@@ -372,13 +383,13 @@ var Bear = Bear || {
 		var total = Bear.config.scenes[Bear.selectedSection].spots.length;
 		if (typeof index !== 'undefined')
 		{
-			if (currentClicks.indexOf(index) == -1) currentClicks.push(index);
+			if (jQuery.inArray(index, currentClicks) == -1) currentClicks.push(index);
 		}
 
 		$(".spot").each(function(i){
 			$(this).removeClass(".clicked");
 			$(this).css({'background-position':''});
-			if (currentClicks.indexOf(i) != -1)
+			if (jQuery.inArray(i, currentClicks) != -1)
 			{
 				$(this).addClass("clicked").removeClass("hidden");
 			} 
