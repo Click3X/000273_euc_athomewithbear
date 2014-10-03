@@ -91,7 +91,8 @@ var Bear = Bear || {
 		var thisScene = Bear.config.scenes[Bear.selectedSection];
 		if (typeof thisScene !== 'undefined')
 		{
-			ga('send', 'event', thisScene.track, '');
+			dataLayer.push({'event': thisScene.track});
+			//ga('send', 'event', thisScene.track, '');
 			var content = $("#content");
 			Bear.trayWrapper = $("<div id='trayWrapper'></div>").appendTo(content);
 			Bear.tray = $("<div id='tray'></div>").appendTo(trayWrapper);
@@ -230,7 +231,8 @@ var Bear = Bear || {
 			spot.click(function(){
 				var thisScene = Bear.config.scenes[Bear.selectedSection];
 				var thisSpot = thisScene.spots[i];
-				ga('send', 'event', thisSpot.track, '');
+				dataLayer.push({'event': thisSpot.track});
+				//ga('send', 'event', thisSpot.track, '');
 				$(this).removeClass("hidden");
 				if (!Bear.isTouchDevice)
 				{
@@ -319,13 +321,15 @@ var Bear = Bear || {
 		{
 			if (Bear.sweepsUnlocked[Bear.selectedSection])
 			{
-				ga('send', 'event', 'bs-bear-sweeps-unlocked', '');
+				dataLayer.push({'event': 'bs-bear-sweeps-unlocked'});
+				//ga('send', 'event', 'bs-bear-sweeps-unlocked', '');
 				var url = Bear.config.sweepsurl;
 				overlayHTML += "<iframe id='overlayiframe'src='"+url+"'></iframe>";
 			}
 			else
 			{
-				ga('send', 'event', 'bs-bear-sweeps-locked', '');
+				dataLayer.push({'event': 'bs-bear-sweeps-locked'});
+				//ga('send', 'event', 'bs-bear-sweeps-locked', '');
 				overlayHTML += "<h2>KEEP EXPLORING to win!</h2>";
 				overlayHTML += "<div class='body'>Keep looking for tips, find them all in one room and enter for a chance to win a $500 gift card.</div>";
 				overlayHTML += "<div class='share'><span><a href='' target='_blank'>VIEW SWEEPSTAKES RULES</a></span></div>";
@@ -339,7 +343,8 @@ var Bear = Bear || {
 		if (type == 'info')
 		{
 			overlay.find('.facebook').click(function(){
-				ga('send', 'event', thisSpot.track+'-facebook', '');
+				dataLayer.push({'event': thisSpot.track+'-facebook'});
+				//ga('send', 'event', thisSpot.track+'-facebook', '');
 				FB.ui({
 				  method: 'feed',
 				  link: Bear.config.siteurl,
@@ -349,7 +354,8 @@ var Bear = Bear || {
 				}, function(response){});
 							});
 			overlay.find('.twitter').click(function(){
-				ga('send', 'event', thisSpot.track+'-twitter', '');
+				dataLayer.push({'event': thisSpot.track+'-twitter'});
+				//ga('send', 'event', thisSpot.track+'-twitter', '');
 				var url = 'http://twitter.com/share?url='+encodeURIComponent(Bear.config.siteurl)+'&text='+encodeURIComponent(thisSpot.twitterText);
 				window.open(url,'tweet','width=550,height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1');
 			});
